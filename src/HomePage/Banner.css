@@ -1,0 +1,39 @@
+#banner {
+    width: 100%;
+    height: fit-content;
+}
+
+.left-icon {
+    display: none;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 40%;
+    right: 98%;
+}
+
+.right-icon {
+    display: none;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 40%;
+    left: 98%;
+}
+
+#banner:hover > .left-icon{
+    cursor: pointer;
+    display: block;
+}
+
+#banner:hover > .right-icon{
+    cursor: pointer;
+    display: block;
+}
+
+#banner-image {
+    width: 100%;
+    height: 100%;
+}
+
+#banner-image:left {
+    transition-duration: 2s;
+}

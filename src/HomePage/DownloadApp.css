@@ -1,0 +1,31 @@
+#downloadapp-container {
+    width: 100%;
+    height: fit-content;
+    background-color: red;
+    margin: 0 0;
+}
+
+#Phone1 {
+    display: block;
+    margin: 0 auto;
+    margin-right: 0;
+}
+
+#downloadapp-right {
+    padding: 6vw 4vw;
+}
+
+#downloadapp-title {
+    color: white;
+    font-size: 42px;
+}
+
+#downloadapp-content {
+    color: rgb(230, 220, 220);
+}
+
+@media (max-width: 958px) {
+    #Phone1 {
+        margin-left: 0.5vw;
+    }
+}

@@ -1,0 +1,67 @@
+#content1-container {
+    margin: 25px auto;
+}
+
+#search-package {
+    background-color: rgb(236, 234, 234);
+    width: 18.5vw;
+    height: 210px;
+    margin: 0px auto;
+    margin-right: 1vw;
+    padding: 10px;
+}
+
+#searchPackage {
+    display: block;
+    margin: 10px auto;
+    width: 17vw;
+}
+
+#fee-calculate {
+    background-color: rgb(236, 234, 234);
+    width: 55%;
+    height: 420px;
+    margin: 0px auto;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+#search-post {
+    background-color: rgb(236, 234, 234);
+    width: 18.5vw;
+    height: 260px;
+    margin: 0px auto;
+    margin-left: 1vw;
+    padding: 10px;
+}
+
+#select-start-location, #select-destination-location {
+    display: block;
+    border: black solid 1px;
+    border-bottom: none;
+    margin-bottom: 1vw;
+}
+
+#select-start-province {
+    display: block;
+    margin: 5px 0px;
+}
+
+#select-start-district {
+    display: inline-block;
+    margin: 5px 0px;
+}
+
+.MuiInputLabel-root {
+    width: 133%;
+    height: 1vw;
+    background-color: white;
+}
+
+.MuiInputLabel-root#filled-start-adornment-label {
+    background-color: transparent;
+}
+
+.MuiInputBase-adornedStart {
+    margin-bottom: 10px;
+}

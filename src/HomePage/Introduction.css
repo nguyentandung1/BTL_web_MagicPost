@@ -1,0 +1,47 @@
+#introduction-container {
+    background-color: rgb(236, 234, 234);
+    margin: 1vw 0;
+    margin-bottom: 0;
+    height: fit-content;
+    padding: 1vw;
+}
+
+#introduction-content {
+    display: block;
+    width: 50%;
+    height: fit-content;
+    margin: 20px auto;
+    margin-right: 80px;
+}
+
+#introduction-header {
+    font-size: 40px;
+}
+
+#introduction-number-container {
+    display: block;
+    height: fit-content;
+    margin-bottom: 10px;
+}
+
+.introduction-number {
+    width: 45%;
+    display: inline-block;
+    margin: auto 0;
+    color: red;
+}
+
+.record-information b {
+    font-size: 44px;
+}
+
+.record-information p {
+    font-size: 14px;
+}
+
+@media (max-width: 959px) {
+   #introduction-content {
+       width: 70%;
+       margin: 20px 0;
+   }
+}

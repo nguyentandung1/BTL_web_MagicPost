@@ -1,0 +1,42 @@
+#footer-container {
+    color: white;
+    background-color: #44494D;
+    width: 100%;
+    height: fit-content;
+    padding: 2vw 0;
+    font-size: 18px;
+}
+
+#support-icon {
+    float: left;
+    width: 58px;
+}
+
+#phone-number {
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-family: 'Core Sans GS',sans-serif;
+}
+
+.media-img {
+    width: 40px;
+}
+
+#permission-img {
+    width: 160px;
+}
+
+.foot-center {
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width:960px) {
+    #footer-container {
+        padding-left: 2vw;
+    }
+
+    .footer-center {
+        margin: 3vw 0;
+    }
+}

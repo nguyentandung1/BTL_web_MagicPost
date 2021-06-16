@@ -1,0 +1,55 @@
+#head-menu {
+    background-color: white;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+#logo {
+    display: block;
+    margin: 25px auto;
+    text-align: right;
+}
+
+.MuiButton-label {
+    text-transform: none;
+    font-size: 16px;
+}
+
+.head-menu-button {
+    border: none;
+    background-color: white;
+    min-width: fit-content;
+    min-height: fit-content;
+}
+
+#head-menu-content {
+    margin: 25px 0px;
+    margin-left: 2vw;
+}
+
+@media (max-width: 958.5px) {
+    #logo {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 750px) {
+    #head-menu-content {
+        display: block;
+        text-align: center;
+    }
+
+    .head-menu-button {
+        border-top: 1px black solid;
+    }
+
+    .MuiButtonGroup-grouped {
+        border-top: 1px black solid;
+    }
+
+    #logo {
+        margin: 10px auto;
+    }
+}
