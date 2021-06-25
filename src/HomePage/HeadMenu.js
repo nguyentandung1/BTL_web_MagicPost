@@ -1,5 +1,5 @@
 import './HeadMenu.css'
-import {Grid, Button, ButtonGroup, TextField, Menu, MenuItem, Link} from "@material-ui/core"
+import {Grid, Button, ButtonGroup, TextField, Link} from "@material-ui/core"
 import {DropdownButton, Dropdown, Table} from 'react-bootstrap'
 import logo from './images/logo-01.png'
 import InputAdornment from '@material-ui/core/InputAdornment';
@@ -30,19 +30,19 @@ function HeadMenu() {
                                 <tbody>
                                     <tr>
                                         <td><Dropdown.Item  href="/vcn">Chuyển phát nhanh(VCN)</Dropdown.Item></td>
-                                        <td><Dropdown.Item>Chuyển phát quốc tế chỉ định hãng(DHL)</Dropdown.Item></td>
-                                        <td><Dropdown.Item>Dịch vụ hải quan(VLQ)</Dropdown.Item></td>
+                                        <td><Dropdown.Item href="/dhl">Chuyển phát quốc tế chỉ định hãng(DHL)</Dropdown.Item></td>
+                                        <td><Dropdown.Item href="/vlq">Dịch vụ hải quan(VLQ)</Dropdown.Item></td>
                                         <td><Dropdown.Item>Dịch vụ bán vé máy bay (VTBay)</Dropdown.Item></td>
                                     </tr>
                                     <tr>
                                         <td><Dropdown.Item href='/vtk'>Chuyển phát tiết kiệm(VTK)</Dropdown.Item></td>
-                                        <td><Dropdown.Item>Chuyển phát quốc tế chỉ định hãng(UPS)</Dropdown.Item></td>
-                                        <td><Dropdown.Item>Dịch vụ foward nhanh(VLF)</Dropdown.Item></td>
+                                        <td><Dropdown.Item href='/ups'>Chuyển phát quốc tế chỉ định hãng(UPS)</Dropdown.Item></td>
+                                        <td><Dropdown.Item href='/vlf'>Dịch vụ foward nhanh(VLF)</Dropdown.Item></td>
                                     </tr>
                                     <tr>
-                                        <td><Dropdown.Item href="/vht4">Chuyển phát hỏa tốc(VHT)</Dropdown.Item></td>
-                                        <td><Dropdown.Item>Chuyển phát quốc tế nhanh(VGN)</Dropdown.Item></td>
-                                        <td><Dropdown.Item>Dịch vụ vận tải hàng gom(VLG)</Dropdown.Item></td>
+                                        <td><Dropdown.Item href="/vht">Chuyển phát hỏa tốc(VHT)</Dropdown.Item></td>
+                                        <td><Dropdown.Item href="/vqn">Chuyển phát quốc tế nhanh(VQN)</Dropdown.Item></td>
+                                        <td><Dropdown.Item href='/vlg'>Dịch vụ vận tải hàng gom(VLG)</Dropdown.Item></td>
                                     </tr>
                                 </tbody>                                
                             </Table>

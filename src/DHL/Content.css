@@ -1,0 +1,22 @@
+#content-container {
+    width: 100%;
+    height: fit-content;
+    padding: 2vw 0;
+}
+
+#content {
+    width: 67%;
+    display: block;
+    margin: 0 auto;
+}
+
+#service-name {
+    font-size: 1.3vw;
+}
+
+#content-table th, #content-table td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 9px;
+    text-align: center;
+}

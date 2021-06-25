@@ -1,0 +1,19 @@
+#content-container {
+    width: 100%;
+    height: fit-content;
+    padding: 2vw 0;
+}
+
+#content {
+    width: 67%;
+    display: block;
+    margin: 0 auto;
+}
+
+#service-name {
+    font-size: 1.3vw;
+}
+
+.Price {
+    width: 70vw;
+}

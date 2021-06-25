@@ -1,22 +1,22 @@
-import './VCN.css'
+import './UPS.css'
 import React, { useEffect } from 'react'
 import HeadBar from '../HomePage/HeadBar'
 import HeadMenu from '../HomePage/HeadMenu'
 import DownloadApp from '../HomePage/DownloadApp'
 import Footer from '../HomePage/Footer'
-import ServiceTitle from './ServiceTitle' 
+import ServiceTitle from '../VCN/ServiceTitle' 
 import Content from './Content'
 
-function VCN() {
+function UPS() {
     useEffect(
         function (){
-          document.title = "Chuyển phát nhanh VCN";
+          document.title = "Chuyển phát nhanh quốc tế chỉ định hãng UPS";
           //document.body.style.background= "linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c)"
         }
-      ); 
-     
-    var serviceName = "Chuyển phát Nhanh";
-    var serviceTitle = "CHUYỂN PHÁT NHANH";
+      );  
+
+    var serviceName = "Chuyển phát quốc tế chỉ định hãng UPS";
+    var serviceTitle = "CHUYỂN PHÁT QUỐC TẾ CHỈ ĐỊNH HÃNG UPS";
     return (
         <div>
             <HeadBar />
@@ -29,4 +29,4 @@ function VCN() {
     );
 }
 
-export default VCN;
+export default UPS;

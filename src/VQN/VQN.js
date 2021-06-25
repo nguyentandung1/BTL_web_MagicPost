@@ -1,22 +1,22 @@
-import './VCN.css'
+import './VQN.css'
 import React, { useEffect } from 'react'
 import HeadBar from '../HomePage/HeadBar'
 import HeadMenu from '../HomePage/HeadMenu'
 import DownloadApp from '../HomePage/DownloadApp'
 import Footer from '../HomePage/Footer'
-import ServiceTitle from './ServiceTitle' 
+import ServiceTitle from '../VCN/ServiceTitle' 
 import Content from './Content'
 
-function VCN() {
+function VQN() {
     useEffect(
         function (){
-          document.title = "Chuyển phát nhanh VCN";
+          document.title = "Chuyển phát nhanh quốc tế nhanh VQN";
           //document.body.style.background= "linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c)"
         }
-      ); 
-     
-    var serviceName = "Chuyển phát Nhanh";
-    var serviceTitle = "CHUYỂN PHÁT NHANH";
+      );  
+
+    var serviceName = "Chuyển phát quốc tế nhanh";
+    var serviceTitle = "CHUYỂN PHÁT QUỐC TẾ NHANH";
     return (
         <div>
             <HeadBar />
@@ -29,4 +29,4 @@ function VCN() {
     );
 }
 
-export default VCN;
+export default VQN;

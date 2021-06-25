@@ -26,9 +26,10 @@
     width: 160px;
 }
 
-.foot-center {
+.footer-center {
     display: block;
     margin: 0 auto;
+    padding-left: 1vw;
 }
 
 @media (max-width:960px) {

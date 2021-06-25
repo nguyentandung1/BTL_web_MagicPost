@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react'
 import HeadBar from './HeadBar'
 import HeadMenu from './HeadMenu'
 import Banner from './Banner'
@@ -10,6 +11,13 @@ import Footer from './Footer'
 import './Homepage.css'
 
 function HomePage() {
+    useEffect(
+        function (){
+          document.title = "Bưu chính viễn thông Viettel - Trang chủ";
+          //document.body.style.background= "linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c)"
+        }
+      );  
+
     return (
         <div>
             <HeadBar />
