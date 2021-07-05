@@ -16,7 +16,7 @@ function HeadMenu() {
                 </Grid>
                 <Grid item md={9} sm={12} xs={12}>
                     <ButtonGroup id="head-menu-content">
-                        <div class="head-menu-button"><Button>Trang chủ</Button></div>
+                        <div class="head-menu-button"><Button href="/">Trang chủ</Button></div>
                         <DropdownButton title="Dịch vụ">
                             <Table>
                                 <thead>
@@ -32,7 +32,7 @@ function HeadMenu() {
                                         <td><Dropdown.Item  href="/vcn">Chuyển phát nhanh(VCN)</Dropdown.Item></td>
                                         <td><Dropdown.Item href="/dhl">Chuyển phát quốc tế chỉ định hãng(DHL)</Dropdown.Item></td>
                                         <td><Dropdown.Item href="/vlq">Dịch vụ hải quan(VLQ)</Dropdown.Item></td>
-                                        <td><Dropdown.Item>Dịch vụ bán vé máy bay (VTBay)</Dropdown.Item></td>
+                                        <td><Dropdown.Item href="/">Dịch vụ bán vé máy bay (VTBay)</Dropdown.Item></td>
                                     </tr>
                                     <tr>
                                         <td><Dropdown.Item href='/vtk'>Chuyển phát tiết kiệm(VTK)</Dropdown.Item></td>
@@ -48,18 +48,16 @@ function HeadMenu() {
                             </Table>
                         </DropdownButton>
                         <DropdownButton class="head-menu-button" title="Tin tức">
-                            <Dropdown.Item>Tin hoạt động</Dropdown.Item>
+                            <Dropdown.Item href="/activitynews">Tin hoạt động</Dropdown.Item>
                             <Dropdown.Divider />
-                            <Dropdown.Item>Tin khuyến mãi</Dropdown.Item>
+                            <Dropdown.Item href="/salenews">Tin khuyến mãi</Dropdown.Item>
                             <Dropdown.Divider />
-                            <Dropdown.Item>Tin đấu thầu</Dropdown.Item>
-                            <Dropdown.Divider />
-                            <Dropdown.Item>Hướng dẫn sử dụng</Dropdown.Item>
+                            <Dropdown.Item href="/bidnews">Tin đấu thầu</Dropdown.Item>
                         </DropdownButton>
                         <DropdownButton class="head-menu-button" title="Cổ đông">
-                            <Dropdown.Item>Đại hội đồng cổ đông</Dropdown.Item>
+                            <Dropdown.Item href="/shareholders">Đại hội đồng cổ đông</Dropdown.Item>
                             <Dropdown.Divider />
-                            <Dropdown.Item>Điều lệ tổng công ty</Dropdown.Item>
+                            <Dropdown.Item href="/companyrule">Điều lệ tổng công ty</Dropdown.Item>
                             <Dropdown.Divider />
                             <Dropdown.Item>Báo cáo tài chính</Dropdown.Item>
                             <Dropdown.Divider />
@@ -69,9 +67,9 @@ function HeadMenu() {
                             <Dropdown.Divider />
                             <Dropdown.Item>Tin cổ đông</Dropdown.Item>
                         </DropdownButton>
-                        <div class="head-menu-button"><Button>Tuyển dụng</Button></div>
+                        <div class="head-menu-button"><Button href="/hirepage">Tuyển dụng</Button></div>
                         <DropdownButton class="head-menu-button" title="Liên hệ">
-                            <Dropdown.Item>Khiếu nại</Dropdown.Item>
+                            <Dropdown.Item href="/complaint">Khiếu nại</Dropdown.Item>
                         </DropdownButton>
                         <DropdownButton class="head-menu-button" title="Hợp tác">
                             <Dropdown.Item>Đăng ký đại lý thu gom</Dropdown.Item>

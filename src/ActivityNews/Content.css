@@ -1,0 +1,300 @@
+#content-container {
+  height: fit-content;
+}
+#content-container #complaint-form {
+  width: 100%;
+  height: fit-content;
+  padding: 1.5vw;
+  border: rgba(0, 0, 0, 0.2) 1px solid;
+}
+#content-container #complaint-form #complaint-field {
+  margin-bottom: 1vw;
+}
+#content-container #complaint-form #complaint-field #field-name {
+  display: inline-block;
+}
+#content-container #complaint-form #complaint-field #input {
+  width: 75%;
+  float: right;
+  margin-right: 2vw;
+}
+#content-container #complaint-form #captcha-container {
+  margin-left: 15.8vw;
+}
+#content-container #complaint-form #captcha-container #captcha {
+  width: 150px;
+  margin-right: 1vw;
+  margin-bottom: 0.5vw;
+}
+#content-container #banner-container {
+  position: relative;
+  margin: 20px 0;
+}
+#content-container #banner-container #banner-text {
+  position: absolute;
+  padding: 15px;
+  left: 10%;
+  top: 25%;
+  bottom: 25%;
+  background-color: rgba(255, 0, 0, 0.8);
+  width: 280px;
+  height: fit-content;
+}
+#content-container #jobsearchbar-container {
+  width: 100%;
+  margin: 2vw 0;
+}
+#content-container #jobsearchbar-container #jobsearchbar-section {
+  width: 32%;
+  padding: 0 1vw 0 0;
+  margin-bottom: 1vw;
+}
+#content-container #jobsearchbar-container #jobsearchbar-section .MuiFilledInput-input {
+  padding: 6px 10px 7px;
+}
+#content-container #service-name {
+  font-size: 24px;
+  margin: 0 auto;
+}
+#content-container #post-date {
+  font-size: 14px;
+}
+#content-container #share {
+  font-size: 14px;
+  margin-left: 20px;
+}
+#content-container .small-icon {
+  width: 16px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+#content-container .khuyemai-content {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+#content-container .chohangquy3-content {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+#content-container .chohangquy3-container .chohangquy3-list {
+  margin: 15px 0;
+  margin-left: 30px;
+}
+#content-container .chohangquy3-container .chohangquy3-list .chohangquy3 {
+  margin: 10px 0;
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+#content-container #hire-main-content #tuyendung-banner {
+  width: 40vw;
+  margin-bottom: 1vw;
+}
+#content-container #hire-main-content .job {
+  margin: 20px 0;
+}
+#content-container #hire-main-content .job .job-container {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+#content-container #hire-main-content .job .jd-container .jd-list {
+  margin: 15px 0;
+  margin-left: 30px;
+}
+#content-container #hire-main-content .job .jd-container .jd-list .jd {
+  margin: 10px 0;
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+#content-container #hire-main-content .job .require-container .require-list {
+  margin: 15px 0;
+  margin-left: 30px;
+}
+#content-container #hire-main-content .job .require-container .require-list .require {
+  margin: 10px 0;
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+#content-container #hire-main-content .information-container .information-list {
+  margin: 15px 0;
+  margin-left: 30px;
+}
+#content-container #hire-main-content .information-container .information-list .information {
+  margin: 10px 0;
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+#content-container #image-link-container {
+  position: relative;
+  width: 770px;
+  height: 580px;
+  margin-bottom: 2vw;
+}
+#content-container #image-link-container #image-link {
+  width: 100%;
+}
+#content-container #image-link-container #image-link-text-container {
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  color: white;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.02), black);
+  opacity: 0.7;
+  bottom: 0%;
+  padding-left: 2vw;
+}
+#content-container #image-link-container #image-link-text-container #image-link-text {
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 17vw;
+}
+#content-container #image-link-container #image-link-text-container #image-link-text:hover {
+  color: red;
+}
+#content-container #related-news-container {
+  width: fit-content;
+  height: fit-content;
+  background-color: rgba(128, 128, 128, 0.1);
+  padding: 1vw;
+  padding-bottom: 0;
+  margin-left: 1vw;
+}
+#content-container #related-news-container #related-news-header {
+  font-weight: bold;
+  border-bottom: 2px solid red;
+}
+#content-container #related-news-container ul {
+  padding-left: 0;
+}
+#content-container #related-news-container ul li {
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: inside;
+  color: red;
+  padding: 0.5vw 0;
+  border-bottom: 1px dashed grey;
+}
+#content-container #related-news-container ul li .news {
+  display: inline-block;
+  width: 14vw;
+  font-size: 14px;
+  margin-right: 0.2vw;
+}
+#content-container #related-news-container ul li .hirenews {
+  display: block;
+  width: 14vw;
+  font-size: 14px;
+  margin-right: 0.2vw;
+}
+#content-container #related-news-container ul li span {
+  display: inline-block;
+  color: grey;
+  font-size: 12px;
+}
+#content-container #related-news-container ul li div {
+  width: fit-content;
+  color: grey;
+  font-size: 12px;
+}
+#content-container #related-news-container ul li:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+#content-container #related-news-container #news-button {
+  background-color: rgba(128, 128, 128, 0.2);
+}
+#content-container #related-news-container #news-button:hover {
+  background-color: red;
+}
+#content-container .news-container {
+  display: flex;
+  height: fit-content;
+  overflow: hidden;
+}
+#content-container .news-container .news-image {
+  position: relative;
+  margin-right: 1vw;
+}
+#content-container .news-container .news-image .image {
+  width: 300px;
+  height: 200px;
+}
+#content-container .news-container .news-image .overlay {
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: -300px;
+  opacity: 0.8;
+  width: 300px;
+  height: 200px;
+  background-color: red;
+  transition: 0.6s;
+  padding-top: 50px;
+}
+#content-container .news-container .news-image .overlay span {
+  padding: 5px;
+  margin: 5px;
+  background-color: black;
+  border-radius: 10px;
+}
+#content-container .news-container .news-image:hover .overlay {
+  left: 0;
+  cursor: pointer;
+}
+#content-container .news-container .news-content-container .news-content-header {
+  font-weight: bold;
+  color: black;
+}
+#content-container .news-container .news-content-container .news-content-body {
+  margin: 0.6vw 0;
+}
+#content-container .news-container .news-content-container .news-content-header:hover {
+  color: red;
+  cursor: pointer;
+}
+@media (max-width: 1830px) {
+  #content-container #image-link-container {
+    width: 41vw;
+    height: 32vw;
+  }
+  #content-container #image-link-container #image-link-text-container #image-link-text {
+    font-size: 1vw;
+    top: 18vw;
+  }
+}
+@media (max-width: 959px) {
+  #content-container #image-link-container {
+    width: 65vw;
+    height: 46vw;
+  }
+  #content-container #image-link-container #image-link-text-container #image-link-text {
+    font-size: 2.2vw;
+    top: 20vw;
+  }
+  #content-container #complaint-form #captcha-container {
+    margin-left: 0;
+  }
+  #content-container #hire-main-content #tuyendung-banner {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  #content-container #image-link-container {
+    width: 95vw;
+    height: 67vw;
+  }
+  #content-container #image-link-container #image-link-text-container #image-link-text {
+    font-size: 3.2vw;
+    top: 30vw;
+  }
+  #content-container .jobsearchbar-section {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=Content.css.map */

@@ -1,0 +1,302 @@
+#content-container {
+    @mixin image-link-text-half {
+        position: absolute;
+        width: 100%;
+        height: 70%;
+    };
+
+    @mixin image-link-container-size($width, $height, $fontSize, $top) {
+        #image-link-container {
+            width: $width;
+            height: $height;
+            #image-link-text-container {
+                #image-link-text{
+                    font-size: $fontSize;
+                    top: $top;
+                }
+            }
+        }
+    }
+
+    @mixin bullet($class) {
+        .#{$class}-container {
+            .#{$class}-list {
+                margin: 15px 0;
+                margin-left: 30px;
+                .#{$class} {
+                    margin: 10px 0;
+                    display: list-item;
+                    list-style-type: disc;
+                    list-style-position: inside;        
+                }
+            }
+        }
+    }
+
+    @mixin news1($class) {
+        .#{$class}-content {
+            font-size: 16px;
+            margin-bottom: 20px;    
+        }
+    }
+
+    height: fit-content;
+
+    #complaint-form {
+        width: 100%;
+        height: fit-content;
+        padding: 1.5vw;
+        border: rgba($color: black, $alpha: 0.2) 1px solid;
+        #complaint-field {
+            margin-bottom: 1vw;
+            #field-name {
+                display: inline-block;
+            }
+            #input {
+                width: 75%;
+                float: right;
+                margin-right: 2vw;
+            }
+        }
+        #captcha-container {
+            margin-left: 15.8vw;
+            #captcha {
+                width: 150px;
+                margin-right: 1vw;
+                margin-bottom: 0.5vw;
+            }
+        }
+    }
+
+    #banner-container {
+        position: relative;
+        margin: 20px 0;
+        #banner-text {
+            position: absolute;
+            padding: 15px;
+            left: 10%;
+            top: 25%;
+            bottom: 25%;
+            background-color: rgba($color: red, $alpha: 0.8);
+            width: 280px;
+            height: fit-content
+        }
+    }
+
+    #jobsearchbar-container {
+        width: 100%;
+        margin: 2vw 0;
+        #jobsearchbar-section {
+            width: 32%;
+            padding: 0 1vw 0 0;
+            margin-bottom: 1vw;
+            .MuiFilledInput-input {
+                padding: 6px 10px 7px;
+            }
+        }
+    }
+
+    #service-name {
+        font-size: 24px;
+        margin: 0 auto;
+    }
+
+    #post-date {
+        font-size: 14px;
+    }
+
+    #share {
+        font-size: 14px;
+        margin-left: 20px;
+    }
+
+    .small-icon {
+        width: 16px;
+        margin: 0 10px;
+        cursor: pointer;
+    }
+
+    @include news1(khuyemai);
+    @include news1(chohangquy3);
+    @include bullet(chohangquy3);
+
+    #hire-main-content {
+        #tuyendung-banner {
+            width: 40vw;
+            margin-bottom: 1vw;
+        }
+        .job {
+            margin: 20px 0;
+            .job-container {
+                margin: 10px 0;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            @include bullet(jd);
+            @include bullet(require);
+        }
+        @include bullet(information);
+    }
+
+    #image-link-container {
+        position: relative;
+        width: 770px;
+        height: 580px;
+        margin-bottom: 2vw;
+        #image-link {
+            width: 100%;
+        }
+        #image-link-text-container {
+            @include image-link-text-half();
+            color: white;
+            background-image: linear-gradient(to bottom, rgba($color: black, $alpha: 0.02), black);
+            opacity: 0.7;
+            bottom: 0%;
+            padding-left: 2vw;
+            #image-link-text {
+                font-size: 20px;
+                font-weight: bold;
+                position: absolute;
+                top: 17vw;
+            }
+            #image-link-text:hover {
+                color: red;
+            }
+        }
+    }
+    
+    #related-news-container {
+        width: fit-content;
+        height: fit-content;
+        background-color: rgba($color: gray, $alpha: 0.1);
+        padding: 1vw;
+        padding-bottom: 0;
+        margin-left: 1vw;
+        #related-news-header {
+            font-weight: bold;
+            border-bottom: 2px solid red;
+        }
+        ul {
+            padding-left: 0;
+            li {
+                display: list-item;
+                list-style-type: disc;
+                list-style-position: inside;
+                color: red;
+                padding: 0.5vw 0;
+                border-bottom: 1px dashed grey;
+                .news {
+                    display: inline-block;
+                    width: 14vw;
+                    font-size: 14px;
+                    margin-right: 0.2vw;
+                }
+                .hirenews{
+                    display: block;
+                    width: 14vw;
+                    font-size: 14px;
+                    margin-right: 0.2vw;
+                }
+                span {
+                    display: inline-block;
+                    color: grey;
+                    font-size: 12px;
+                }
+                div {
+                    width: fit-content;
+                    color: grey;
+                    font-size: 12px;
+                }
+            }
+            li:hover {
+                opacity: 0.5;
+                cursor: pointer;
+            }
+        }
+        #news-button {
+            background-color: rgba($color: grey, $alpha: 0.2) ;
+        }
+        #news-button:hover {
+            background-color: red;
+        }
+    }
+
+    .news-container {
+        display: flex;
+        height: fit-content;
+        overflow: hidden;
+        .news-image {
+            position: relative;
+            margin-right: 1vw;
+            .image {
+                width: 300px;
+                height: 200px;
+            }
+            .overlay {
+                text-align: center;
+                position: absolute;
+                top: 0;
+                left: -300px;
+                opacity: 0.8;    
+                width: 300px;
+                height: 200px;
+                background-color: red;
+                transition: 0.6s;
+                padding-top: 50px;
+                span {
+                    padding: 5px;
+                    margin: 5px;
+                    background-color: black;
+                    border-radius: 10px;
+                }
+            }
+        }
+        .news-image:hover {
+            .overlay {
+                left: 0;
+                cursor: pointer;
+            }
+        }            
+        .news-content-container {
+            .news-content-header {
+                font-weight: bold;
+                color: black;
+            }
+            .news-content-body {
+                margin: 0.6vw 0;
+            }
+            .news-content-header:hover {
+                color: red;
+                cursor: pointer;
+            }
+        }
+    }
+
+    @media (max-width: 1830px) {
+        @include image-link-container-size(41vw, 32vw , 1vw, 18vw);
+    } 
+
+    @media (max-width: 959px) {
+        @include image-link-container-size(65vw, 46vw , 2.2vw, 20vw);
+
+        #complaint-form {
+            #captcha-container {
+                margin-left: 0;
+            }    
+        }
+        
+        #hire-main-content {
+            #tuyendung-banner {
+                width: 100%;
+            }
+        }
+    }
+
+    @media (max-width: 600px) {
+        @include image-link-container-size(95vw, 67vw , 3.2vw, 30vw);
+        .jobsearchbar-section {
+            width: 100%;
+        }
+    }
+}
+
