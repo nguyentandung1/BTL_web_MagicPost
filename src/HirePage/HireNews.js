@@ -8,17 +8,17 @@ function HireNews() {
     const hireNewsList = [
         {
             "news": hirenews1,
-            "header": "Viettel Post hires Supply Chain Management Solution Engineer/Architect",
+            "header": "Magic Post hires Supply Chain Management Solution Engineer/Architect",
             "time": "28/05/2021 10:45",
         },
         {
             "news": hirenews2,
-            "header": "Viettel Post tuyển dụng Quản trị dự án",
+            "header": "Magic Post tuyển dụng Quản trị dự án",
             "time": "26/05/2021 14:18",
         },
         {
             "news": hirenews3,
-            "header": "Viettel Post tuyển dụng Trưởng sản phẩm",
+            "header": "Magic Post tuyển dụng Trưởng sản phẩm",
             "time": "26/05/2021 14:12",
         },
     ]

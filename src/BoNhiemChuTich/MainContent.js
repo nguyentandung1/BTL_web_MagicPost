@@ -20,7 +20,7 @@ function MainContent({serviceName}) {
             <Link><img class="small-icon" src={PinterestIcon} alt="pinterestIcon" /></Link>
             <Divider style={{marginTop: "10px", marginBottom: "10px"}} />
             <div>
-                Tổng Công ty Cổ phần Bưu chính Viettel trân trọng công bố thông tin bổ nhiệm Chủ tịch HĐQT nhiệm 
+            MagicPost trân trọng công bố thông tin bổ nhiệm Chủ tịch HĐQT nhiệm 
                 kỳ 2019 – 2024, vui lòng theo dõi tại đây.
             </div>
         </div>

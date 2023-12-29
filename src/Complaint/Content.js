@@ -29,6 +29,12 @@ function Content({serviceName}) {
             "placeholder": "Nội dung",
         },
     ]
+    const handleSubmit = () => {
+        // Handle the form submission logic here
+    
+        // Open the specified link in a new tab
+        window.open('https://drive.google.com/file/d/1KHjiXqX7DPAo2Sx91rG84-OJLDWL1sRw/view?usp=sharing', '_blank');
+      };
     return (
         <div id="content-container">
             <Grid container>
@@ -49,7 +55,9 @@ function Content({serviceName}) {
                     <div id="captcha-container">
                         <img id="captcha" src={captcha} alt="captcha" />
                         <TextField variant="outlined" size="small" placeholder="Nhập mã captcha" />
-                        <div><Button variant="contained" color="secondary">Gửi</Button></div>
+                        <div><Button variant="contained" color="secondary" onClick={handleSubmit}>
+                Gửi
+              </Button></div>
                     </div>
                 </Grid>
                 <Grid item md={2} sm={false} xs={false}></Grid>

@@ -21,13 +21,13 @@ function MainContent({serviceName}) {
             <Link><img class="small-icon" src={PinterestIcon} alt="pinterestIcon" /></Link>
             <Divider style={{marginTop: "10px", marginBottom: "10px"}} />
             <div class="khuyenmai-content">
-                Với mục đích nâng cấp chất lượng dịch vụ, cũng như phục vụ trải nghiệm khách hàng tốt nhất, Viettel Post và Viettel 
+                Với mục đích nâng cấp chất lượng dịch vụ, cũng như phục vụ trải nghiệm khách hàng tốt nhất, MagicPost 
                 Sale chính thức gửi tặng đến quý khách hàng khuyến mãi siêu “hot” trong tháng 06 này. Đó là gì? Cùng khám phá 
                 trong bài viết này nhé!
             </div>
             <div class="khuyenmai-content">
-                Đối với mỗi khách hàng đăng ký tạo tài khoản mới trên phần mềm của Viettel Post trong tháng 06, sẽ được tặng ngay 
-                01 tháng sử dụng phần mềm quản lý bán hàng Viettel Sale hoàn toàn MIỄN PHÍ.
+                Đối với mỗi khách hàng đăng ký tạo tài khoản mới trên phần mềm của MagicPost trong tháng 06, sẽ được tặng ngay 
+                01 tháng sử dụng phần mềm quản lý bán hàng MagicPost Sale hoàn toàn MIỄN PHÍ.
             </div>
             <div class="khuyenmai-content"><center><img src={Banner} alt="Banner" /></center></div>
             <div class="khuyenmai-content">

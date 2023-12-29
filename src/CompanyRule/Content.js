@@ -19,7 +19,7 @@ function Content({serviceName}) {
         {
             "news": news2,
             "header": "Điều lệ Tổng Công ty tháng 12/2019",
-            "body": "Điều lệ Tổng Công ty Cổ phần Bưu chính Viettel sau khi phát hành thành công ESOP 2019. Vui lòng click vào đây để theo dõi.",
+            "body": "Điều lệ MagicPost sau khi phát hành thành công ESOP 2019. Vui lòng click vào đây để theo dõi.",
             "time": "26/12/2019",
             "overlay": "Điều lệ Tổng Công ty tháng 12/2019",
         },
@@ -46,31 +46,31 @@ function Content({serviceName}) {
         },
         {
             'news': news6,
-            "header": "Điều lệ Viettel Post theo Đại hội thường niên 2019",
-            "body": "Dieu le Viettel Post",
+            "header": "Điều lệ MagicPost theo Đại hội thường niên 2019",
+            "body": "Dieu le MagicPost",
             "time": "20/04/2019",
-            "overlay": "Điều lệ Viettel Post theo Đại hội thường niên 2019",
+            "overlay": "Điều lệ MagicPost theo Đại hội thường niên 2019",
         },
         {
             'news': news7,
             "header": "Điều lệ tổ chức và hoạt động của Tổng Công ty (cập nhật 20/10/2018)",
-            "body": "Tổng Công ty Cổ phần Bưu chính Viettel công bố Điều lệ tổ chức và hoạt động của Tổng Công ty (cập nhật 20/10/2018). Vui lòng xem chi tiết TẠI ĐÂY.",
+            "body": "MagicPost công bố Điều lệ tổ chức và hoạt động của Tổng Công ty (cập nhật 20/10/2018). Vui lòng xem chi tiết TẠI ĐÂY.",
             "time": "20/10/2018",
             "overlay": "Điều lệ tổ chức và hoạt động của Tổng Công ty (cập nhật 20/10/2018)",
         },
         {
             'news': news8,
             "header": "Điều lệ Tổng Công ty theo vốn 413 tỷ (cập nhật 9/2018)",
-            "body": "Tổng Công ty Cổ phần Bưu chính Viettel công bố Điều lệ Tổng Công ty theo vốn 413 tỷ (cập nhật 8/2018). Vui lòng xem chi tiết TẠI ĐÂY.",
+            "body": "MagicPost công bố Điều lệ Tổng Công ty theo vốn 413 tỷ (cập nhật 8/2018). Vui lòng xem chi tiết TẠI ĐÂY.",
             "time": "20/09/2018",
             "overlay": "Điều lệ Tổng Công ty theo vốn 413 tỷ (cập nhật 9/2018)",
         },
         {
             'news': news9,
-            "header": "Điều lệ Tổng Công ty Cổ phần Bưu chính Viettel – Năm 2017",
-            "body": "Tổng Công ty Cổ phần Bưu chính Viettel công bố Điều lệ năm 2017.  Vui lòng xem chi tiết TẠI ĐÂY.",
+            "header": "Điều lệ MagicPost – Năm 2017",
+            "body": "MagicPost công bố Điều lệ năm 2017.  Vui lòng xem chi tiết TẠI ĐÂY.",
             "time": "27/04/2017",
-            "overlay": "Điều lệ Tổng Công ty Cổ phần Bưu chính Viettel – Năm 2017",
+            "overlay": "Điều lệ MagicPost – Năm 2017",
         },
     ]
 

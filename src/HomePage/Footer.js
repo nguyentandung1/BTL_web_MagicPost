@@ -19,9 +19,9 @@ function Footer() {
 
                 </Grid>
                 <Grid item md={3} xs={12} id="footer-grid-1">
-                    <div><b>TỔNG CÔNG TY CỔ PHẦN BƯU CHÍNH VIETTEL</b></div>
+                    <div><b>TỔNG CÔNG TY MagicPost</b></div>
                     <br />
-                    <div>Viettel Post là doanh nghiệp hàng đầu cung cấp dịch vụ 
+                    <div>Magic Post là doanh nghiệp hàng đầu cung cấp dịch vụ 
                         chuyển phát nhanh hàng hoá, bưu kiện trong nước, quốc
                         tế tại Việt Nam.</div>
                     <br />
@@ -44,7 +44,7 @@ function Footer() {
                     <br />
                     <div>
                         <MailOutlineIcon color="secondary" />
-                        cskh@viettelpost.com.vn
+                        cskh@magicpost.com.vn
                     </div>
                     <br />
                     <div>
@@ -56,7 +56,7 @@ function Footer() {
                     <div class="footer-center">
                         <div><b>GIỚI THIỆU</b></div>
                         <br/>
-                        <div>Giới thiệu Viettel Post</div>
+                        <div>Giới thiệu Magic Post</div>
                         <br/>
                         <div>Tin tức</div>
                         <br/>

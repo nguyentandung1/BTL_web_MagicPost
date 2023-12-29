@@ -12,7 +12,7 @@ function DownloadApp() {
                     <img id="Phone1" src={Phone1} alt="Phone1" />
                 </Grid>
                 <Grid id="downloadapp-right" item md={7} sm={12} xs={12}>
-                    <div id="downloadapp-title"><b>Tải ứng dụng ViettelPost</b></div>
+                    <div id="downloadapp-title"><b>Tải ứng dụng MagicPost</b></div>
                     <div id="downloadapp-content">Tạo đơn hàng, theo dõi hành trình, cập nhật thông tin mọi lúc mọi nơi và hơn thế nữa!</div>
                     <br />
                     <div>

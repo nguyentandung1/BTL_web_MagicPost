@@ -14,7 +14,7 @@ function Introduction() {
                         <b id="introduction-header">Mạng lưới bưu cục trên 63 tỉnh thành</b>
                         <Dropdown.Divider />
                         <div id="introduction-body">
-                            <b>Mạng lưới chuyển phát của Viettel Post</b> phủ sóng khắp
+                            <b>Mạng lưới chuyển phát của Magic Post</b> phủ sóng khắp
                             63 tỉnh thành trên lãnh thổ Việt Nam
                         </div>
                     </div>

@@ -14,8 +14,8 @@ function Complaint() {
         }
       );  
 
-    var serviceName = "Gửi thông tin khiếu nại";
-    var serviceTitle = "GỬI THÔNG TIN KHIẾU NẠI";
+    var serviceName = "Gửi thông tin tra cứu";
+    var serviceTitle = "GỬI THÔNG TIN TRA CỨU";
     return (
         <div>
             <HeadBar />

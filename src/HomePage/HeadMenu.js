@@ -69,7 +69,7 @@ function HeadMenu() {
                         </DropdownButton>
                         <div class="head-menu-button"><Button href="/hirepage">Tuyển dụng</Button></div>
                         <DropdownButton class="head-menu-button" title="Liên hệ">
-                            <Dropdown.Item href="/complaint">Khiếu nại</Dropdown.Item>
+                            <Dropdown.Item href="/complaint">Tra cứu</Dropdown.Item>
                         </DropdownButton>
                         <DropdownButton class="head-menu-button" title="Hợp tác">
                             <Dropdown.Item>Đăng ký đại lý thu gom</Dropdown.Item>

@@ -10,7 +10,7 @@ function RelatedNews({type}) {
                 'time': '25/06/2021 13:42',
             },
             {
-                'header': 'Nghìn đơn không khó, đã có Viettel Sale lo!',
+                'header': 'Nghìn đơn không khó, đã có MagicPost Sale lo!',
                 'time': '24/06/2021 13:34',
             },
             {
@@ -18,11 +18,11 @@ function RelatedNews({type}) {
                 'time': '24/06/2021 09:52',
             },
             {
-                'header': 'Viettel Post TẶNG VOUCHER GIẢM 5K cho đơn hàng có cước phí chuyển phát trên 30K',
+                'header': 'Magic Post TẶNG VOUCHER GIẢM 5K cho đơn hàng có cước phí chuyển phát trên 30K',
                 'time': '16/06/2021 15:15',
             },
             {
-                'header': 'CẢNH BÁO DỮ LIỆU BẤT THƯỜNG khi tạo đơn trên website Viettelpost.vn',
+                'header': 'CẢNH BÁO DỮ LIỆU BẤT THƯỜNG khi tạo đơn trên website Magicpost.vn',
                 'time': '16/06/2021 11:23',
             },
             {
@@ -34,7 +34,7 @@ function RelatedNews({type}) {
                 'time': '09/06/2021 20:43',
             },
             {
-                'header': 'Viettel Post TUYỂN DỤNG nhiều vị trí – THU NHẬP tới 20 TRIỆU/tháng',
+                'header': 'Magic Post TUYỂN DỤNG nhiều vị trí – THU NHẬP tới 20 TRIỆU/tháng',
                 'time': '02/06/2021 10:10',
             },
         ]
@@ -42,7 +42,7 @@ function RelatedNews({type}) {
     else if (type === "shareholders") {
         relatedNewsList = [
             {
-                'header': "Chào mừng 24 năm thành lập Tổng Công ty Cổ phần Bưu chính Viettel",
+                'header': "Chào mừng 24 năm thành lập Magic Post",
                 "time": "30/06/2021 14:52",
             },
             {
@@ -58,7 +58,7 @@ function RelatedNews({type}) {
                 "time": "25/06/2021 13:42",
             },
             {
-                'header': "Nghìn đơn không khó, đã có Viettel Sale lo!",
+                'header': "Nghìn đơn không khó, đã có MagicPost Sale lo!",
                 "time": "24/06/2021 13:34",
             },
             {
@@ -70,7 +70,7 @@ function RelatedNews({type}) {
                 "time": "16/06/2021 15:15",
             },
             {
-                'header': "CẢNH BÁO DỮ LIỆU BẤT THƯỜNG khi tạo đơn trên website Viettelpost.vn",
+                'header': "CẢNH BÁO DỮ LIỆU BẤT THƯỜNG khi tạo đơn trên website Magicpost.vn",
                 "time": "16/06/2021 11:23",
             },
         ]

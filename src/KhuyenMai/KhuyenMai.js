@@ -9,13 +9,13 @@ import Content from './Content'
 function KhuyenMai() {
     useEffect(
         function (){
-          document.title = "Nghìn đơn không khó, đã có Viettel Sale lo!";
+          document.title = "Nghìn đơn không khó, đã có MagicPost Sale lo!";
           //document.body.style.background= "linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c)"
         }
       );  
 
-    var serviceName = "Nghìn đơn không khó, đã có Viettel Sale lo!";
-    var serviceTitle = "NGHÌN ĐƠN KHÔNG KHÓ, ĐÃ CÓ VIETTEL SALE LO!";
+    var serviceName = "Nghìn đơn không khó, đã có MagicPost Sale lo!";
+    var serviceTitle = "NGHÌN ĐƠN KHÔNG KHÓ, ĐÃ CÓ MagicPost SALE LO!";
     return (
         <div>
             <HeadBar />

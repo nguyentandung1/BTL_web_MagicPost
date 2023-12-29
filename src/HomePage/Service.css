@@ -35,7 +35,7 @@
     width: 70%;
     height: fit-content;
     padding: 5px;
-    color: red;
+    color: orange;
     background-color: rgb(250, 158, 158);
     font-size: 12px;
     border-radius: 5px;
@@ -51,15 +51,15 @@
     width: fit-content;
     font-size: 22px;
     font-weight: bold;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid orange;
 }
 
 #all-service-label {
     display: block;
     margin: 1.5vw auto;
     padding: 0.5vw;
-    border: 1px solid red;
-    background-color: red;
+    border: 1px solid orange;
+    background-color: orange;
     color: white;
     font-weight: bold;
 }

@@ -62,7 +62,7 @@ function MainContent({serviceName}) {
             <Divider style={{marginTop: "10px", marginBottom: "10px"}} />
             <div id="hire-main-content">
                 <img id="tuyendung-banner" src={Banner} alt="banner" />
-                <b><i>Nhằm nâng cao chất lượng dịch vụ, Viettel Post triển khai chương trình tổng tuyển dụng nhiều vị trí với thu nhập hấp dẫn tới 20 TRIỆU/tháng</i></b>
+                <b><i>Nhằm nâng cao chất lượng dịch vụ, Magic Post triển khai chương trình tổng tuyển dụng nhiều vị trí với thu nhập hấp dẫn tới 20 TRIỆU/tháng</i></b>
                 {
                     jobList.map(i => {
                         return <Job job={i.job} jd={i.jd} require={i.require} applyAt={i.applyAt} />
